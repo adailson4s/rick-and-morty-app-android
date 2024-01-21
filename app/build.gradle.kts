@@ -70,6 +70,8 @@ dependencies {
     val daggerHiltVersion = "2.48"
     val hiltVersion = "1.1.0"
     val navVersion = "2.7.6"
+    val httpLoggingVersion = "4.10.0"
+    val jsonVersion = "2.10.1"
 
     //bom
     implementation(platform("androidx.compose:compose-bom:2023.08.00"))
@@ -103,6 +105,8 @@ dependencies {
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofitVersion")
     implementation("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+    implementation ("com.squareup.okhttp3:logging-interceptor:$httpLoggingVersion")
+    implementation ("com.google.code.gson:gson:$jsonVersion")
 
     //tests
     testImplementation("junit:junit:4.13.2")
