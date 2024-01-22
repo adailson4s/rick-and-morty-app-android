@@ -1,7 +1,4 @@
 <resources>
     <string name="app_name">Rick and Morty</string>
-    <string name="text_example_of_screen_example">Text example of screen example: %s</string>
-    <string name="go_to_screen">Go to Screen: %s</string>
-    <string name="stop_random_number">Stop Random Number!</string>
-    <string name="resume_random_number">Resume Random Number!</string>
+    <string name="api_connection_failed">API connection failed!</string>
 </resources>

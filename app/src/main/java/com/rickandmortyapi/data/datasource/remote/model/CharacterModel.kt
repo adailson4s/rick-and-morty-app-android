@@ -16,9 +16,9 @@ data class CharacterModel(
     @SerializedName("gender")
     var gender: String,
     @SerializedName("origin")
-    var origin: OriginModel,
+    var origin: NameAndLinkModel,
     @SerializedName("location")
-    var location: LocationModel,
+    var location: NameAndLinkModel,
     @SerializedName("image")
     var image: String,
     @SerializedName("episode")
